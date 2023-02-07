@@ -1,0 +1,14 @@
+name: intrepion-basic-rest-client-web
+region: sfo
+static_sites:
+  - build_command: npm run build
+    catchall_document: index.html
+    environment_slug: node-js
+    github:
+      branch: main
+      deploy_on_push: true
+      repo: intrepion/intrepion-intrepion-basic-rest-client-web-typescript-react-typescript
+    name: basic-rest-client-web
+    routes:
+      - path: /
+    source_dir: /
