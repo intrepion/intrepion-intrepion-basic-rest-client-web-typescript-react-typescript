@@ -26,7 +26,7 @@ const Navigating = () => {
                 About
               </Nav.Link>
             </Nav>
-            {authenticatedUserName ? (
+            {/* {authenticatedUserName ? (
               <Nav className="text-end">
                 <Nav.Link
                   as={Link}
@@ -60,7 +60,7 @@ const Navigating = () => {
                   Register
                 </Nav.Link>
               </Nav>
-            )}
+            )} */}
           </Navbar.Collapse>
         </Container>
       </Navbar>
